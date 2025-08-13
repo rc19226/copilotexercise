@@ -12,6 +12,12 @@ def format_date(date_str):
     except Exception:
         return date_str  # Return as is if parsing fails
 
+def split_if_multiple(value):
+    # Split by comma if more than one value, else return as is
+    if value and ',' in value:
+        return [v.strip() for v in value.split(',')]
+    return value
+
 def csv_to_json(csv_file_path, json_file_path):
     try:
         with open(csv_file_path, mode='r', encoding='utf-8') as csv_file:
@@ -24,6 +30,10 @@ def csv_to_json(csv_file_path, json_file_path):
                 # Format the date field
                 if "Date" in row and row["Date"]:
                     row["Date"] = format_date(row["Date"])
+                # Convert comma-separated values to lists for all fields
+                for key in row:
+                    if key not in ["Rating", "Date"]:
+                        row[key] = split_if_multiple(row[key])
                 data.append(row)
         with open(json_file_path, mode='w', encoding='utf-8') as json_file:
             json.dump(data, json_file, indent=4)
@@ -34,7 +44,7 @@ def csv_to_json(csv_file_path, json_file_path):
         print(f"An error occurred: {e}", file=sys.stderr)
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert a CSV file to JSON format. Ratings are given out of 10. Dates are formatted as 'month day year'.")
+    parser = argparse.ArgumentParser(description="Convert a CSV file to JSON format. Ratings are given out of 10. Dates are formatted as 'month day year'. Comma-separated values are converted to lists.")
     parser.add_argument("csv_file", help="Path to the input CSV file")
     parser.add_argument("json_file", help="Path to the output JSON file")
     args = parser.parse_args()

@@ -4,7 +4,10 @@
         "Date": "september 23 1994",
         "Genre": "Drama",
         "Director": "Frank Darabont",
-        "Actors": "Tim Robbins, Morgan Freeman",
+        "Actors": [
+            "Tim Robbins",
+            "Morgan Freeman"
+        ],
         "Country": "USA",
         "Language": "English",
         "Rating": "9.2 (out of 10)"
@@ -12,9 +15,15 @@
     {
         "MovieName": "The Godfather",
         "Date": "march 15 1972",
-        "Genre": "Crime, Drama",
+        "Genre": [
+            "Crime",
+            "Drama"
+        ],
         "Director": "Francis Ford Coppola",
-        "Actors": "Marlon Brando, Al Pacino",
+        "Actors": [
+            "Marlon Brando",
+            "Al Pacino"
+        ],
         "Country": "USA",
         "Language": "English",
         "Rating": "9.2 (out of 10)"
@@ -22,9 +31,15 @@
     {
         "MovieName": "The Dark Knight",
         "Date": "july 18 2008",
-        "Genre": "Action, Thriller",
+        "Genre": [
+            "Action",
+            "Thriller"
+        ],
         "Director": "Christopher Nolan",
-        "Actors": "Christian Bale, Heath Ledger",
+        "Actors": [
+            "Christian Bale",
+            "Heath Ledger"
+        ],
         "Country": "UK/USA",
         "Language": "English",
         "Rating": "9.0 (out of 10)"
@@ -32,9 +47,15 @@
     {
         "MovieName": "Inception",
         "Date": "july 16 2010",
-        "Genre": "Sci-Fi, Action",
+        "Genre": [
+            "Sci-Fi",
+            "Action"
+        ],
         "Director": "Christopher Nolan",
-        "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt",
+        "Actors": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt"
+        ],
         "Country": "USA/UK",
         "Language": "English",
         "Rating": "8.8 (out of 10)"
@@ -42,9 +63,15 @@
     {
         "MovieName": "The Lord of the Rings: The Return of the King",
         "Date": "december 17 2003",
-        "Genre": "Fantasy, Adventure",
+        "Genre": [
+            "Fantasy",
+            "Adventure"
+        ],
         "Director": "Peter Jackson",
-        "Actors": "Elijah Wood,Viggo Mortensen",
+        "Actors": [
+            "Elijah Wood",
+            "Viggo Mortensen"
+        ],
         "Country": "New Zealand",
         "Language": "English",
         "Rating": "9.0 (out of 10)"
@@ -52,9 +79,15 @@
     {
         "MovieName": "Pulp Fiction",
         "Date": "october 14 1994",
-        "Genre": "Crime, Drama",
+        "Genre": [
+            "Crime",
+            "Drama"
+        ],
         "Director": "Quentin Tarantino",
-        "Actors": "John Travolta, Samuel L.Jackson",
+        "Actors": [
+            "John Travolta",
+            "Samuel L.Jackson"
+        ],
         "Country": "USA",
         "Language": "English",
         "Rating": "8.9 (out of 10)"
@@ -62,9 +95,15 @@
     {
         "MovieName": "The Lord of the Rings: The Fellowship of the Ring",
         "Date": "december 19 2001",
-        "Genre": "Fantasy, Adventure",
+        "Genre": [
+            "Fantasy",
+            "Adventure"
+        ],
         "Director": "Peter Jackson",
-        "Actors": "ElijahWood, Viggo Mortensen",
+        "Actors": [
+            "ElijahWood",
+            "Viggo Mortensen"
+        ],
         "Country": "New Zealand",
         "Language": "English",
         "Rating": "8.8 (out of 10)"
@@ -74,7 +113,10 @@
         "Date": "july 06 1994",
         "Genre": "Drama",
         "Director": "Robert Zemeckis",
-        "Actors": "Tom Hanks, Robin Wright",
+        "Actors": [
+            "Tom Hanks",
+            "Robin Wright"
+        ],
         "Country": "USA",
         "Language": "English",
         "Rating": "8.8 (out of 10)"
@@ -82,9 +124,15 @@
     {
         "MovieName": "The Silence of the Lambs",
         "Date": "may 23 1991",
-        "Genre": "Thriller, Crime",
+        "Genre": [
+            "Thriller",
+            "Crime"
+        ],
         "Director": "Jonathan Demme",
-        "Actors": "Jodie Foster, AnthonyHopkins",
+        "Actors": [
+            "Jodie Foster",
+            "AnthonyHopkins"
+        ],
         "Country": "USA",
         "Language": "English",
         "Rating": "8.6 (out of 10)"
@@ -92,9 +140,15 @@
     {
         "MovieName": "Interstellar",
         "Date": "november 07 2014",
-        "Genre": "Sci-Fi, Drama",
+        "Genre": [
+            "Sci-Fi",
+            "Drama"
+        ],
         "Director": "Christopher Nolan",
-        "Actors": "Matthew McConaughey, AnneHathaway",
+        "Actors": [
+            "Matthew McConaughey",
+            "AnneHathaway"
+        ],
         "Country": "USA/UK",
         "Language": "English",
         "Rating": "8.1 (out of 10)"
