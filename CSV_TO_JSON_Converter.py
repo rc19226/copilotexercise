@@ -1,4 +1,5 @@
-#movies data is upto date i am just experimenting with pull requests
+
+#movies data is upto date iam just experimenting with merge conflicts
 
 import argparse
 import csv
